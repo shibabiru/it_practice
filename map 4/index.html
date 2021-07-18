@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Coffee Map</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class=”row justify-content-center”>
+        <div class=”col-sm-8″>
+          <h1 class="above">コーヒーMAP</h1>
+　　      <div id="mapSample"></div> 
+          <h2 class="under">お気に入りのコーヒー豆を見つけよう</h2>
+          <p>ステップ１：コーヒー豆をクリックしよう<br>ステップ２：名前をクリックしよう</p>
+        </div> 
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="main.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=実際のキー&callback=initMap">
+    </script>
+  </body>
+</html>
